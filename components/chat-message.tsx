@@ -15,7 +15,8 @@ export interface ChatMessageProps {
     content?: string;
     isLoading?: boolean;
     src?: string;
-};
+  }
+
 
 export const ChatMessage = ({
     role,
@@ -45,7 +46,7 @@ export const ChatMessage = ({
             role === "user" && "justify-end"
         )}>
             {role !== "user" && src && <BotAvatar src={src} />}
-            <div className="rounded-md px-4 py-2 max-w-sm text-sm bg-primary/10">
+            <div className="rounded-md px-4 py-2 max-w-sm text-sm bg-primary/10  my-auto">
                 {isLoading
                     ? <BeatLoader
                         size={5}
