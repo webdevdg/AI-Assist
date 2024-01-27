@@ -41,7 +41,7 @@ export async function POST(
                 messages: {
                     create: {
                         content: prompt,
-                        Role: "user",
+                        role: "user",
                         userId: user.id,
                     },
                 },
@@ -153,7 +153,7 @@ export async function POST(
                     messages: {
                         create: {
                             content: response.trim(),
-                            Role: "system",
+                            role: "system",
                             userId: user.id,
                         },
                     },
