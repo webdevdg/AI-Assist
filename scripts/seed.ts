@@ -9,7 +9,7 @@ async function main() {
                 {name: "Famous People"},
                 {name: "Movies & TV"},
                 {name: "Musicians"},
-                {name: "Games"},
+                {name: "Sports"},
                 {name: "Animals"},
                 {name: "Philosophy"},
                 {name: "Scientists"},
