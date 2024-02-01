@@ -25,7 +25,7 @@ export const Navbar = () => {
                     <h1 className={cn("hidden md:block text-xl text-3xl font-bold text-primary",
                         font.className
                     )}>
-                        assist.ai</h1>
+                        persona.ai</h1>
                 </Link>
             </div>
             <div className="flex items-center gap-x-3">
